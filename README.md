@@ -1,1 +1,1 @@
-# bautifulbengal
+# beautifulbengal
