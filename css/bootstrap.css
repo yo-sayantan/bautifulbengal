@@ -6,6 +6,7 @@
  */
 :root {
   --blue: #007bff;
+  --black: #000000;
   --indigo: #6610f2;
   --purple: #6f42c1;
   --pink: #e83e8c;
@@ -4119,7 +4120,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #007bff;
+  background-color: #616161;
 }
 
 .nav-fill .nav-item {
