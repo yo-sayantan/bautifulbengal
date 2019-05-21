@@ -2,13 +2,7 @@
 html,
 body,
 .view {
-  height: 100%;
- }
-
-/* Navbar animation */
-.navbar {
-  background-color: rgba(0, 0, 0, 0.8);
-}
+  height: 100%; }
 
 /* Full Page Carousel itself*/
 .carousel {
@@ -19,15 +13,18 @@ body,
     .carousel .carousel-inner .active {
       height: 100%; }
 
+/* Navbar animation */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.2); }
 
 .top-nav-collapse {
-  background-color: #000000; }
+  background-color: #1C2331; }
 
 /* Adding color to the Navbar on mobile */
 @media only screen and (max-width: 768px) {
   .navbar {
-    background-color: #000000;  } }
+    background-color: #1C2331; } }
 
 /* Footer color for sake of consistency with Navbar */
 .page-footer {
-  background-color: #000000; }
+  background-color: #1C2331; }
