@@ -2,6 +2,10 @@
   height: 100%
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .navbar {
   background-color: rgba(0, 0, 0, .2)
 }
@@ -14,4 +18,19 @@
   .navbar {
     background-color: #1C2331
   }
+}
+
+*[explore]:before {
+  display: block;
+  content: " ";
+  margin-top: 90px; // Set the Appropriate Height
+  height: 90px; // Set the Appropriate Height
+  visibility: hidden;
+}
+
+.anchor::before {
+    content: "";
+    display: block;
+    margin-top: -100px;
+    position: absolute;
 }
