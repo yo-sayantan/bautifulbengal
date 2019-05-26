@@ -34,3 +34,11 @@ html {
     margin-top: -100px;
     position: absolute;
 }
+
+h3 {
+   font-family: 'Prompt', sans-serif;
+}
+
+.grey-text {
+  font-size: 15px;
+}
