@@ -9,7 +9,7 @@
 <!--===============================================================================================-->
 	<!-- <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css"> -->
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css"> -->
 <!--===============================================================================================-->
 	<link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Great+Vibes|Lobster|Prompt|Roboto+Slab&display=swap" rel="stylesheet">
 <!--===============================================================================================-->
@@ -34,6 +34,16 @@
 	content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
 	name="viewport"
 />
+
+		<script type="text/javascript">
+			function closeCurrentTab(){
+				var conf=confirm("Do you want to submit the query?");
+				if(conf==true){
+					close();
+				}
+			}
+		</script>
+		
 </head>
 <body style="background-color: #999999;">
 
@@ -97,11 +107,11 @@
 					<div class="container-login100-form-btn">
 						<div class="wrap-login100-form-btn">
 							<div class="login100-form-bgbtn"></div>
-							<button class="login100-form-btn">
+							<button class="login100-form-btn" value="Close Tab." onclick="closeCurrentTab()">
 								Submit
 							</button>
 						</div>
-
+<!-- <p><input type="button" value="Close Tab." onclick="closeCurrentTab()"></p> -->
 				</form>
 			</div>
 		</div>
