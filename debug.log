@@ -1,1 +1,3 @@
 [0520/133812.234:WARNING:minidump_to_upload_parameters.cc(67)] duplicate annotation name metrics_client_id, discarding value 282b734ae9404add9a699fa7fedc54ef
+[0529/214843.652:ERROR:process_info.cc(359)] UncheckedAllocate
+[0529/225559.114:ERROR:process_info.cc(359)] UncheckedAllocate
